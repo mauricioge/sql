@@ -1,21 +1,51 @@
-### MÓDULO :two:: Consultas Básicas de Selección (1h 15min)
-- **Sentencia `SELECT`**
-  + Seleccionar todas las columnas (`SELECT *`).
-  + Seleccionar columnas específicas (`SELECT columna1, columna2`).
-  + Alias de columnas (`AS`).
-- **Sentencia `FROM`**
-- **Filtrado de Datos con `WHERE`:**
-  + Operadores de comparación (`=`, `!=`, `<`, `>`, `<=`, `>=`).
-  + Operadores lógicos (`AND`, `OR`, `NOT`).
-  + `BETWEEN` y `NOT BETWEEN`.
-  + `IN` y `NOT IN`.
-  + `LIKE` y `NOT LIKE` (uso de `%` y `_`).
-  + `IS NULL` y `IS NOT NULL`.
-- **Sentencia `INSERT INTO`**
-- **Sentencia `UPDATE`**
-- **Sentencia `DELETE`**
-- **Ordenamiento de Resultados (`ORDER BY`):**
-  + Orden ascendente (`ASC`) y descendente (`DESC`).
-  + Ordenar usando múltiples columnas.
-- **Limitando Resultados (`LIMIT` / `TOP`):**
-  + Cómo obtener un número específico de filas.
+# MÓDULO :two:: Consultas Básicas (CRUD) (1h 15min)
+
+## CRUD:
+- **C**reate (Crear): INSERT INTO
+- **R**ead (Leer): SELECT
+- **U**pdate (Actualizar): UPDATE
+- **D**elete (Eliminar): DELETE
+
+## Sentencias `SELECT` y `FROM`
+- Seleccionar todas las columnas en una tabla  
+  `SELECT * FROM tabla`
+- Seleccionar columnas específicas en una tabla  
+  `SELECT columna1, columna2 FROM tabla`
+- Renombrar (alias de) columnas  
+  `SELECT columna1 AS nuevo_nombre FROM tabla`
+
+## Filtrar Resultados con `WHERE`:
+- Operadores de comparación: `=`, `!=`, `<`, `>`, `<=`, `>=`
+- Operadores lógicos: `AND`, `OR`, `NOT`
+- Operador `BETWEEN` y `NOT BETWEEN`
+- Operador `IN` y `NOT IN`
+- Operador `LIKE` y `NOT LIKE` (uso de `%` y `_`)
+- Operador `IS NULL` y `IS NOT NULL`
+
+## Sentencia `INSERT INTO`
+- Insertar un registro en una tabla  
+  `INSERT INTO tabla (columna1, columna2) VALUES (valor1, valor2)`
+
+## Sentencias `UPDATE` y `SET`
+- Actualizar ***TODOS*** los registros en una tabla  
+  `UPDATE tabla SET columna1 = valor1, columna2 = valor2`
+- Actualizar uno o más registros en una tabla con condición  
+  `UPDATE tabla SET columna1 = valor1, columna2 = valor2 WHERE condicion`
+
+## Sentencias `DELETE` y `WHERE`
+- Eliminar ***TODOS*** los registros en una tabla  
+  `DELETE FROM tabla`
+- Eliminar uno o más registros en una tabla con condición  
+  `DELETE FROM tabla WHERE condicion`
+
+## Ordenar Resultados con `ORDER BY`:
+- Orden ascendente (`ASC`)  
+  `ORDER BY columna1 ASC`
+- Orden descendente (`DESC`)  
+  `ORDER BY columna1 DESC`
+- Ordenar usando **múltiples** columnas  
+  `ORDER BY columna1 ASC, columna2 DESC`
+
+## Limitar Resultados con `LIMIT` / `TOP`:
+- Pedir un número específico de filas  
+  `SELECT * FROM tabla LIMIT 10`
