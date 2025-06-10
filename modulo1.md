@@ -1,4 +1,4 @@
-# MÓDULO :one:: Introducción a las Bases de Datos y SQL (45min)
+# MÓDULO 1: Introducción a las Bases de Datos y SQL (45min)
 
 ## ¿Qué es una Base de Datos Relacional?
 [🔗](https://www.oracle.com/lad/database/what-is-a-relational-database/):  

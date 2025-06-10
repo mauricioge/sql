@@ -1,4 +1,4 @@
-# MÓDULO 3: Agregación y Agrupación de Resultdos (1h)
+# MÓDULO 3: Agregación y Agrupación de Resultados (1h)
 
 ## Funciones de Agregación
 

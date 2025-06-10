@@ -1,4 +1,4 @@
-# MÓDULO :two:: Consultas Básicas (CRUD) (1h 15min)
+# MÓDULO 2: Consultas Básicas (CRUD) (1h 15min)
 
 ## CRUD
 - **C**reate (Crear): INSERT INTO
