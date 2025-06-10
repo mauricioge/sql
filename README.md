@@ -1,6 +1,6 @@
 # SQL: Lenguaje de Consultas Estructuradas - 4h
 
-## A QUIÉN ESTÁ DIRIJIDO:
+## A QUIÉN ESTÁ DIRIGIDO:
 Este curso está diseñado para principiantes y personas que deseen reforzar sus conocimientos en la creación de consultas SQL para extraer y manipular datos de bases de datos relacionales.
 
 ## TEMARIO:
