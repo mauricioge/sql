@@ -42,9 +42,9 @@ Es una forma de organizar información en tablas con filas y columnas, estableci
   + DCL - Lenguaje de Control de Datos, usado para determinar quién puede ver o modificar los datos.
   + TCL - Lenguaje de Control de Transacciones, usado para gestionar las transacciones en una base de datos.
    
-### ¿Qué es NoSQL? [🔗](https://www.oracle.com/lad/database/nosql/what-is-nosql/)
-- Originalmente significaba "Non-SQL" y ahora se interpreta más comúnmente como "Not Only SQL" o "No Solo SQL" y se refiere a una categoría amplia de sistemas de gestión de bases de datos que se desvían del modelo relacional tradicional y, por lo tanto, no utilizan SQL como su lenguaje de consulta principal o exclusivo.
-- Mientras que las bases de datos relacionales (SQL) se basan en un esquema rígido, tablas estructuradas, claves primarias y foráneas, y la estricta adherencia a la atomicidad, consistencia, aislamiento y durabilidad (ACID), las bases de datos NoSQL ofrecen un enfoque más flexible y variado para el almacenamiento y la recuperación de datos.
+### ¿Qué es y cuándo usar NoSQL? [🔗](https://www.oracle.com/lad/database/nosql/what-is-nosql/)
+- Significado: Originalmente significaba "Non-SQL" y ahora se interpreta más comúnmente como "Not Only SQL" o "No Solo SQL" y se refiere a una categoría amplia de sistemas de gestión de bases de datos que se desvían del modelo relacional tradicional y, por lo tanto, no utilizan SQL como su lenguaje de consulta principal o exclusivo.
+- Comparación: Mientras que las bases de datos relacionales (SQL) se basan en un esquema rígido, tablas estructuradas, claves primarias y foráneas, y la estricta adherencia a la atomicidad, consistencia, aislamiento y durabilidad (ACID), las bases de datos NoSQL ofrecen un enfoque más flexible y variado para el almacenamiento y la recuperación de datos.
 - ¿Cuándo usar NoSQL? Se elige NoSQL cuando:
   + Se necesita escalabilidad horizontal para manejar grandes volúmenes de datos y/o tráfico.
   + Se trabaja con datos no estructurados o semi-estructurados cuyo esquema es flexible o evoluciona rápidamente.
@@ -53,6 +53,6 @@ Es una forma de organizar información en tablas con filas y columnas, estableci
   + El modelo de datos natural del problema se ajusta mejor a uno de los modelos NoSQL (por ejemplo, grafos para relaciones, documentos para jerarquías complejas).
 
 ### Entorno de Trabajo (Demostración Rápida)
-- Instalación y configuración de un Cliente SQL (DBeaver, MySQL Workbench o PHPMyAdmin).
+- Instalación y configuración de un Cliente SQL (DBeaver / MySQL Workbench / PHPMyAdmin).
 - Conexión a una base de datos de ejemplo.
 - Concepto de `SELECT` simple para ver una tabla.
