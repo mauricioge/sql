@@ -1,18 +1,18 @@
-# MÓDULO :three:: Agregación y Agrupación de Resultdos (1h)
+# MÓDULO 3: Agregación y Agrupación de Resultdos (1h)
 
 ## Funciones de Agregación
 
-- **`COUNT()`**: Contar filas  
+- **Contar filas con `COUNT()`**:  
   `SELECT COUNT(*) FROM tabla;`
-- **`COUNT(DISTINCT)`**: Contar valores únicos  
+- **Contar valores únicos con `COUNT(DISTINCT)`**:  
   `SELECT COUNT(DISTINCT columna) FROM tabla;`
-- **`SUM()`**: Sumar valores numéricos  
+- **Sumar valores numéricos con `SUM()`**:  
   `SELECT SUM(columna) FROM tabla;`
-- **`AVG()`**: Calcular el promedio  
+- **Calcular el promedio con `AVG()`**:  
   `SELECT AVG(columna) FROM tabla;`
-- **`MIN()`**: Encontrar el valor mínimo  
+- **Encontrar el valor mínimo con `MIN()`**:  
   `SELECT MIN(columna) FROM tabla;`
-- **`MAX()`**: Encontrar el valor máximo  
+- **Encontrar el valor máximo con `MAX()`**:  
   `SELECT MAX(columna) FROM tabla;`
 
 ## Funciones de Agrupación

@@ -5,7 +5,7 @@ Este curso está diseñado para principiantes y personas que deseen reforzar sus
 
 ## TEMARIO:
 
-### [MÓDULO :one:: Introducción a las Bases de Datos y SQL (45min)](https://github.com/mauricioge/sql/blob/main/modulo1.md)
+### MÓDULO 1: [Introducción a BBDD y SQL (45min)](https://github.com/mauricioge/sql/blob/main/modulo1.md)
 - **¿Qué es una Base de Datos Relacional?**
   + Conceptos clave.
   + Sistemas de Gestión de Bases de Datos Relacionales (RDBMS)
@@ -24,29 +24,32 @@ Este curso está diseñado para principiantes y personas que deseen reforzar sus
   + Conexión a una base de datos de ejemplo.
   + Concepto de `SELECT` simple para ver una tabla.
 
-### MÓDULO :two:: Consultas Básicas de Selección (1h 15min)
+### MÓDULO 2: [Consultas Básicas de Selección (1h 15min)](https://github.com/mauricioge/sql/blob/main/modulo2.md)
 - **Sentencia `SELECT`**
   + Seleccionar todas las columnas (`SELECT *`).
-  + Seleccionar columnas específicas (`SELECT columna1, columna2`).
+  + Seleccionar columnas específicas (`SELECT columna1, columna2,`).
+  + Incluir columnas estáticas (`SELECT 'Hola Mundo'`).
+  + Incluir columnas calculadas (`SELECT columna1 + columna2`).
+  + Renombrar columnas (`SELECT columna1, columna2,`).
   + Alias de columnas (`AS`).
 - **Sentencia `FROM`**
-- **Filtrado de Datos con `WHERE`:**
-  + Operadores de comparación (`=`, `!=`, `<`, `>`, `<=`, `>=`).
-  + Operadores lógicos (`AND`, `OR`, `NOT`).
-  + `BETWEEN` y `NOT BETWEEN`.
+- **Filtrar Resultados con `WHERE`:**
+  + Operadores de comparación `=`, `!=`, `<`, `>`, `<=`, `>=`
+  + Operadores lógicos `AND`, `OR`, `NOT`
+  + Operador `BETWEEN` y `NOT BETWEEN`.
   + `IN` y `NOT IN`.
   + `LIKE` y `NOT LIKE` (uso de `%` y `_`).
   + `IS NULL` y `IS NOT NULL`.
 - **Sentencia `INSERT INTO`**
 - **Sentencia `UPDATE`**
 - **Sentencia `DELETE`**
-- **Ordenamiento de Resultados (`ORDER BY`):**
+- **Ordenar Resultados (`ORDER BY`):**
   + Orden ascendente (`ASC`) y descendente (`DESC`).
   + Ordenar usando múltiples columnas.
-- **Limitando Resultados (`LIMIT` / `TOP`):**
+- **Limitar Resultados (`LIMIT` / `TOP`):**
   + Cómo obtener un número específico de filas.
 
-### MÓDULO :three:: Agregación y Agrupación de Datos (1h)
+### MÓDULO 3: [Agregación y Agrupación de Datos (1h)](https://github.com/mauricioge/sql/blob/main/modulo3.md)
 - **Funciones de Agregación:**
   + `COUNT()`: Contar filas.
   + `SUM()`: Sumar valores numéricos.
@@ -60,7 +63,7 @@ Este curso está diseñado para principiantes y personas que deseen reforzar sus
   + Diferencia entre `WHERE` y `HAVING`.
   + Filtrar resultados después de la agrupación.
 
-### MÓDULO :four:: Combinación de Tablas (JOINs) y Subconsultas (1h)
+### MÓDULO 4: [Combinación de Tablas (JOINs) y Subconsultas (1h)](https://github.com/mauricioge/sql/blob/main/modulo4.md)
 - **Concepto de JOINs:**
   + Relaciones entre tablas.
 - **Tipos de JOINs más comunes:**
