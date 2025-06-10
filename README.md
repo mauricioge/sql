@@ -5,10 +5,10 @@ Este curso está diseñado para principiantes y personas que deseen reforzar sus
 
 ## TEMARIO:
 
-### MÓDULO :one:: Introducción a las Bases de Datos y SQL (45min)
+### [MÓDULO :one:: Introducción a las Bases de Datos y SQL (45min)](https://github.com/mauricioge/sql/blob/main/modulo1.md)
 - **¿Qué es una Base de Datos Relacional?**
-  + Conceptos clave: tablas, columnas, filas, claves primarias y foráneas.
-  + Ejemplos de sistemas de gestión de bases de datos (RDBMS): SQLite, MySQL, PostgreSQL, SQL Server, Oracle, etc.
+  + Conceptos clave.
+  + Ejemplos de sistemas de gestión de bases de datos relacionales (RDBMS)
 - **¿Qué es SQL y para qué sirve?**
   + Definición y propósito del lenguaje SQL.
   + Categorías de comandos SQL: DDL, DML, DCL, TCL.
