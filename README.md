@@ -8,12 +8,19 @@ Este curso está diseñado para principiantes y personas que deseen reforzar sus
 ### [MÓDULO :one:: Introducción a las Bases de Datos y SQL (45min)](https://github.com/mauricioge/sql/blob/main/modulo1.md)
 - **¿Qué es una Base de Datos Relacional?**
   + Conceptos clave.
-  + Ejemplos de sistemas de gestión de bases de datos relacionales (RDBMS)
+  + Sistemas de Gestión de Bases de Datos Relacionales (RDBMS)
+  + Ventajas.
+  + Ejemplos de uso.
 - **¿Qué es SQL y para qué sirve?**
-  + Definición y propósito del lenguaje SQL.
-  + Categorías de comandos SQL: DDL, DML, DCL, TCL.
-- **Entorno de Trabajo (Demostración Rápida)**
-  + Instalación y configuración de un Cliente SQL (DBeaver, MySQL Workbench o PHPMyAdmin).
+  + Definición.
+  + Propósito.
+  + Categorías de comandos SQL.
+- **¿Qué es y cuándo usar NoSQL?**
+  + Definición.
+  + Comparación.
+  + ¿Cuándo usar NoSQL?
+- **Entorno de Trabajo**
+  + Instalación y configuración de un Cliente SQL.
   + Conexión a una base de datos de ejemplo.
   + Concepto de `SELECT` simple para ver una tabla.
 
