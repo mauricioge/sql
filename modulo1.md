@@ -1,6 +1,6 @@
-### MÓDULO :one:: Introducción a las Bases de Datos y SQL (45min)
+# MÓDULO :one:: Introducción a las Bases de Datos y SQL (45min)
 
-- **¿Qué es una Base de Datos Relacional?** [🔗](https://www.oracle.com/lad/database/what-is-a-relational-database/):  
+## ¿Qué es una Base de Datos Relacional? [🔗](https://www.oracle.com/lad/database/what-is-a-relational-database/):  
 Es una forma de organizar información en tablas con filas y columnas, estableciendo relaciones entre las diferentes tablas a través de claves. Esto facilita la organización, almacenamiento, recuperación y gestión de datos de manera eficiente, especialmente cuando se necesita mantener la integridad y consistencia de la información. 
   + Conceptos clave:
     + Tabla (table): En una base de datos relacional la información se organiza en tablas, que son estructuras bidimensionales con filas y columnas. 
@@ -35,8 +35,14 @@ Es una forma de organizar información en tablas con filas y columnas, estableci
     + TCL - Lenguaje de Control de Transacciones, usado para gestionar las transacciones en una base de datos.
    
 - **¿Qué es NoSQL?** [🔗](https://www.oracle.com/lad/database/nosql/what-is-nosql/)
-  + Originalmente significaba "Non-SQL" y ahora se interpreta más comúnmente como "Not Only SQL" o "No Solo SQL") se refiere a una categoría amplia de sistemas de gestión de bases de datos que se desvían del modelo relacional tradicional y, por lo tanto, no utilizan SQL como su lenguaje de consulta principal o exclusivo.
+  + Originalmente significaba "Non-SQL" y ahora se interpreta más comúnmente como "Not Only SQL" o "No Solo SQL" y se refiere a una categoría amplia de sistemas de gestión de bases de datos que se desvían del modelo relacional tradicional y, por lo tanto, no utilizan SQL como su lenguaje de consulta principal o exclusivo.
   + Mientras que las bases de datos relacionales (SQL) se basan en un esquema rígido, tablas estructuradas, claves primarias y foráneas, y la estricta adherencia a la atomicidad, consistencia, aislamiento y durabilidad (ACID), las bases de datos NoSQL ofrecen un enfoque más flexible y variado para el almacenamiento y la recuperación de datos.
+  + ¿Cuándo usar NoSQL? Se elige NoSQL cuando:
+    + Se necesita escalabilidad horizontal para manejar grandes volúmenes de datos y/o tráfico.
+    + Se trabaja con datos no estructurados o semi-estructurados cuyo esquema es flexible o evoluciona rápidamente.
+    + La velocidad de desarrollo y la capacidad de iterar rápidamente sobre el modelo de datos son cruciales.
+    + La consistencia estricta (ACID) es menos crítica que la disponibilidad y la toleración a particiones (modelo BASE: Basically Available, Soft state, Eventually consistent).
+    + El modelo de datos natural del problema se ajusta mejor a uno de los modelos NoSQL (por ejemplo, grafos para relaciones, documentos para jerarquías complejas).
 
 - **Entorno de Trabajo (Demostración Rápida)**
   + Instalación y configuración de un Cliente SQL (DBeaver, MySQL Workbench o PHPMyAdmin).
