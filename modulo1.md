@@ -4,12 +4,18 @@
 Es una forma de organizar información en tablas con filas y columnas, estableciendo relaciones entre las diferentes tablas a través de claves. Esto facilita la organización, almacenamiento, recuperación y gestión de datos de manera eficiente, especialmente cuando se necesita mantener la integridad y consistencia de la información. 
 
 ### Conceptos clave:
-- **Tabla** (table): En una base de datos relacional la información se organiza en tablas, que son estructuras bidimensionales con filas y columnas.
-- **Fila** (row): Una fila representa un registro o entidad de datos.
-- **Columna** (column): Una columna representa un atributo o campo de los datos.
-- **Clave primaria** (PK / primary key): es un atributo (una columna) o un conjunto de atributos (varias columnas) dentro de una tabla que identifica de forma única cada fila (registro) de esa tabla.
-- **Clave foránea** (FK / foreign key): es un atributo (una columna) o un conjunto de atributos (varias columnas) en una tabla (la tabla "hija" o "dependiente") que hace referencia a la clave primaria de otra tabla (la tabla "padre" o "referenciada").
-- **Restricción** (constraint)*: es una regla o condición que se impone sobre los datos de una tabla o columna para asegurar la integridad, precisión y consistencia de la información almacenada en la base de datos.
+- **Tabla (table)**:  
+  En una base de datos relacional la información se organiza en tablas, que son estructuras bidimensionales con filas y columnas.
+- **Fila (row)**:  
+  Una fila representa un registro o entidad de datos.
+- **Columna (column)**:  
+  Una columna representa un atributo o campo de los datos.
+- **Clave primaria (PK / primary key)**:  
+  Es un atributo (una columna) o un conjunto de atributos (varias columnas) dentro de una tabla que identifica de forma única cada fila (registro) de esa tabla.
+- **Clave foránea (FK / foreign key)**:  
+  Es un atributo (una columna) o un conjunto de atributos (varias columnas) en una tabla (la tabla "hija" o "dependiente") que hace referencia a la clave primaria de otra tabla (la tabla "padre" o "referenciada").
+- **Restricción (constraint)**:  
+  Es una regla o condición que se impone sobre los datos de una tabla o columna para asegurar la integridad, precisión y consistencia de la información almacenada en la base de datos.
 
 ### Sistemas de Gestión de Bases de Datos Relacionales (RDBMS)(Motor - Engine):
 - SQLite
@@ -37,10 +43,15 @@ Es una forma de organizar información en tablas con filas y columnas, estableci
 - Definición: SQL es un lenguaje estandarizado por el ANSI (American National Standards Institute) e ISO (International Organization for Standardization), lo que asegura una gran compatibilidad entre diferentes sistemas de gestión de bases de datos relacionales con el fin de gestionar y manipular bases de datos relacionales.
 - Propósito: Proporcionar una sintaxis universal para realizar una **amplia gama de operaciones** en bases de datos relacionales.
 - Categorías de comandos SQL:
-  + DDL - Lenguaje de Definición de Datos: usado para crear objetos en la base de datos.
-  + DML - Lenguaje de Manipulación de Datos, usado para consultar y modificar los datos. Este curso se enfoca, en el uso de instrucciones DML para consultar datos.
-  + DCL - Lenguaje de Control de Datos, usado para determinar quién puede ver o modificar los datos.
-  + TCL - Lenguaje de Control de Transacciones, usado para gestionar las transacciones en una base de datos.
+  + **DDL - Lenguaje de Definición de Datos**:  
+    Uso: crear, modificar o eliminar objetos en la base de datos.
+  + **DML - Lenguaje de Manipulación de Datos**:  
+    Uso: consultar y modificar los datos.  
+    Este curso se enfoca, en el uso de instrucciones DML para consultar datos.
+  + **DCL - Lenguaje de Control de Datos**:  
+    Uso: determinar quién puede ver o modificar los datos.
+  + **TCL - Lenguaje de Control de Transacciones**:  
+    Uso: gestionar las transacciones en una base de datos.
    
 ### ¿Qué es y cuándo usar NoSQL? [🔗](https://www.oracle.com/lad/database/nosql/what-is-nosql/)
 - Significado: Originalmente significaba "Non-SQL" y ahora se interpreta más comúnmente como "Not Only SQL" o "No Solo SQL" y se refiere a una categoría amplia de sistemas de gestión de bases de datos que se desvían del modelo relacional tradicional y, por lo tanto, no utilizan SQL como su lenguaje de consulta principal o exclusivo.
