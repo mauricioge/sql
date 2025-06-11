@@ -1,5 +1,9 @@
 # MÓDULO 2: Consultas Básicas (CRUD) (1h 15min)
 
+## Comentarios
+- **Comentar una línea con:** `--`
+- **Comentar múltiples líneas con**: `/*` y `*/`
+
 ## CRUD
 - **C**reate (Crear): INSERT INTO
 - **R**ead (Leer): SELECT

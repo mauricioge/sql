@@ -57,14 +57,18 @@ Es una forma de organizar información en tablas con filas y columnas, estableci
   Proporcionar una sintaxis universal para realizar una **amplia gama de operaciones** en bases de datos relacionales.
 - **Categorías de comandos SQL**:
   + **DDL - Lenguaje de Definición de Datos**:  
-    Uso: crear, modificar o eliminar objetos en la base de datos.
+    Uso: crear, modificar o eliminar objetos en la base de datos.  
+    Ej.: CREATE, ALTER, DROP, etc.
   + **DML - Lenguaje de Manipulación de Datos**:  
     Uso: consultar y modificar los datos.  
-    Este curso se enfoca, en el uso de instrucciones DML para consultar datos.
+    Ej.: SELECT, INSERT, UPDATE, DELETE, etc.  
+    *Este curso se enfoca, en el uso de instrucciones DML para consultar datos.*
   + **DCL - Lenguaje de Control de Datos**:  
-    Uso: determinar quién puede ver o modificar los datos.
+    Uso: determinar quién puede ver o modificar los datos.  
+    Ej.: GRANT, DENY, REVOKE, etc.
   + **TCL - Lenguaje de Control de Transacciones**:  
-    Uso: gestionar las transacciones en una base de datos.
+    Uso: gestionar las transacciones en una base de datos.  
+    Ej.: COMMIT, ROLLBACK, SAVEPOINT, etc.
    
 ### ¿Qué es y cuándo usar NoSQL?  
 [🔗](https://www.oracle.com/lad/database/nosql/what-is-nosql/)
@@ -79,7 +83,6 @@ Originalmente significaba "Non-SQL", ahora se interpreta más comúnmente como "
   + La consistencia estricta (ACID) es menos crítica que la disponibilidad y la toleración a particiones (modelo BASE: Basically Available, Soft state, Eventually consistent).
   + El modelo de datos natural del problema se ajusta mejor a uno de los modelos NoSQL (por ejemplo, grafos para relaciones, documentos para jerarquías complejas).
 
-### Entorno de Trabajo (Demostración Rápida)
+### Entorno de Trabajo (Demo)
 - Instalación y configuración de un Cliente SQL (DBeaver / MySQL Workbench / PHPMyAdmin).
 - Conexión a una base de datos de ejemplo.
-- Concepto de `SELECT` simple para ver una tabla.
