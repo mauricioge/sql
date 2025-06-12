@@ -83,6 +83,6 @@ Originalmente significaba "Non-SQL", ahora se interpreta más comúnmente como "
   + La consistencia estricta (ACID) es menos crítica que la disponibilidad y la toleración a particiones (modelo BASE: Basically Available, Soft state, Eventually consistent).
   + El modelo de datos natural del problema se ajusta mejor a uno de los modelos NoSQL (por ejemplo, grafos para relaciones, documentos para jerarquías complejas).
 
-### Entorno de Trabajo (Demo)
+### Entorno de Trabajo (Video Demo)
 - Instalación y configuración de un Cliente SQL (DBeaver / MySQL Workbench / PHPMyAdmin).
 - Conexión a una base de datos de ejemplo.
