@@ -20,7 +20,7 @@
 ## Funciones de Agrupación
 
 - **¿Qué son las funciones de agrupación?**  
-  Son funciones que agrupan filas a partir de un criterio
+  Son funciones que agrupan filas a partir de un atributo y aplican una función a cada grupo.
 - **Agrupación de Resultados con `GROUP BY`:**
   + Agrupar datos por una o más columnas  
     `SELECT columna1, columna2, ... FROM tabla GROUP BY columna1, columna2;`
