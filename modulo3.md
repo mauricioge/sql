@@ -2,6 +2,8 @@
 
 ## Funciones de Agregación
 
+- **¿Qué son las funciones de agregación?**  
+  Son funciones que realizan un cálculo **sobre un conjunto de filas** y devuelven un único valor resumido.
 - **Contar filas con `COUNT()`**:  
   `SELECT COUNT(*) FROM tabla;`
 - **Contar valores únicos con `COUNT(DISTINCT)`**:  
@@ -17,6 +19,8 @@
 
 ## Funciones de Agrupación
 
+- **¿Qué son las funciones de agrupación?**  
+  Son funciones que agrupan filas a partir de un criterio
 - **Agrupación de Resultados con `GROUP BY`:**
   + Agrupar datos por una o más columnas  
     `SELECT columna1, columna2, ... FROM tabla GROUP BY columna1, columna2;`

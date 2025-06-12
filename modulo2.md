@@ -1,22 +1,29 @@
 # MÓDULO 2: Consultas Básicas (CRUD) (1h 15min)
 
 ## Comentarios
-- **Comentar una línea con:** `--`
-- **Comentar múltiples líneas con**: `/*` y `*/`
+- Comentar **una línea** con: `--`
+- Comentar **múltiples líneas** con: `/*` y `*/`
+
+## ¿Qué es una Consulta (Query)?
+Es una solicitud que se enviará a una base de datos con el fin de obtener un conjunto de resultados (que puede ser un valor único, una fila, una columna o una tabla).
 
 ## CRUD
-- **C**reate (Crear): INSERT INTO
-- **R**ead (Leer): SELECT
-- **U**pdate (Actualizar): UPDATE
-- **D**elete (Eliminar): DELETE
+- **¿A qué se le llama CRUD?**  
+  Es el acrónimo formado por el conjunto de cláusulas:
+  + **C**reate (Crear): `INSERT INTO`
+  + **R**ead (Leer): `SELECT`
+  + **U**pdate (Actualizar): `UPDATE`
+  + **D**elete (Eliminar): `DELETE`
 
 ## Sentencias `SELECT` y `FROM`
 - **Seleccionar todas las columnas en una tabla**  
   `SELECT * FROM tabla`
 - **Seleccionar columnas específicas en una tabla**  
   `SELECT columna1, columna2 FROM tabla`
-- **Renombrar (alias de) columnas**  
+- **Alias de columna**  
   `SELECT columna1 AS nuevo_nombre FROM tabla`
+- **Alias de tabla**  
+  `SELECT columna1 FROM tabla AS nuevo_nombre`
 
 ## Filtrar Resultados con `WHERE`:
 - **Operadores de comparación**:  
