@@ -79,8 +79,11 @@ Este curso está diseñado para principiantes y personas que deseen reforzar sus
   + Sesión abierta para preguntas y respuestas.
 
 ## Consideraciones Adicionales para el Curso:
-- **Práctica Constante:** Es fundamental que cada módulo incluya ejercicios prácticos para que los participantes puedan aplicar lo aprendido.
-- **Base de Datos de Ejemplo:** Utiliza una base de datos sencilla y consistente (por ejemplo, Northwind, Sakila o una base de datos creada específicamente para el curso con pocas tablas).
-- **Demostraciones en Vivo:** Realiza demostraciones en tiempo real de cada concepto.
-- **Recursos Adicionales:** Proporciona materiales de apoyo, como una guía de referencia rápida de SQL, enlaces a documentación oficial o plataformas de práctica online.
-Espero que este temario te sea de gran utilidad para crear tu curso de SQL. ¡Mucho éxito!
+- **Práctica Constante:** Cada módulo incluye ejercicios prácticos para que los participantes puedan aplicar lo aprendido.
+- **Base de Datos de Ejemplo:** Para los ejercicios que realizaremos utilizaremos una base de datos sencilla pero consistente pero con todo lo necesario para que entender los conceptos y realizar prácticas.
+- **Demostraciones en Video:** Puedes ver esta clase en video acá.
+- **Recursos Adicionales:**
+  + Descarga el PDF de este curso
+  + Descarga la guía de referencia rápida de SQL
+  + Documentación oficial
+  + Plataformas de práctica online
