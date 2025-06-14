@@ -10,7 +10,7 @@ Es una forma de organizar información en tablas con filas y columnas, estableci
 - **Fila (row)**:  
   Una fila representa un registro o entidad de datos.
 - **Columna (column)**:  
-  Una columna representa un atributo o campo de los datos.
+  Una columna representa un atributo o campo de los datos (que describe la información de la tabla).
 - **Clave primaria (PK / primary key)**:  
   Es un atributo (una columna) o un conjunto de atributos (varias columnas) dentro de una tabla que identifica de forma única cada fila (registro) de esa tabla.
 - **Clave foránea (FK / foreign key)**:  
